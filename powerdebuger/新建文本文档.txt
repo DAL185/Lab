@@ -1,0 +1,32 @@
+  <?php
+$sname=$_POST["sname"];
+$sno=$_POST["sno"];
+echo "姓名：".$name."<br>";
+echo "学号：".$sno."<br>";
+$link=mysql_connect("localhost","root","goodluck2015")
+
+
+<?php while($row=mysqli_fetch_array($res)){
+                ?>
+
+<?php while($row=mysqli_fetch_array($res)){echo $row["lessonname"];}?>
+
+assets/css/amazeui.min.css
+
+
+上机实验交互平台 
+<ul class="am-nav am-nav-pills am-topbar-nav am-topbar-middle admin-header-list">
+
+            <li class="am-dropdown" data-am-dropdown>
+                <a class="am-dropdown-toggle" data-am-dropdown-toggle href="javascript:;">
+                    姓名：
+                </a>
+            </li>
+            <li class="am-dropdown" data-am-dropdown>
+                <a class="am-dropdown-toggle" data-am-dropdown-toggle href="javascript:;">
+                    学号：
+                </a>
+            </li>
+        </ul>
+
+

@@ -1,0 +1,14 @@
+<?php
+$snumber=$_post['snumber'];
+function login_state($snumber,$user_shell){
+    $sql="select * from student WHERE $snumber=$_post[snumber]";
+    $query=mysql_query($sql);
+    $us=is_array($row=mysql_fetch_array($query));
+    $user_shell==$row;
+    if($user_shell){
+        echo "ok";
+    }else{
+        echo "ÖØÐÂµÇÂ¼";
+    }
+}
+?>
