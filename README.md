@@ -1,5 +1,5 @@
-# Online-lab-class-system
-It's a online interactive system aimed at students and teachers,ready to have a look?
+# Online lab class system
+An online interactive system that help students submit their questions,and receive in-time feedback in lab class,ready to have a look?
 
  
 ### Prerequisites
